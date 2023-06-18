@@ -1,0 +1,43 @@
+.merchant-dashboard{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px lightgray;
+    /* width: 950px; */
+    border-radius: 5px;
+    padding: 60px 40px;
+    margin: 40px 90px;
+}
+.merchant-dashboard h1{
+    color: #48c1cf;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+   margin-left: 0;
+}
+.card-item{
+    height: 180px;
+    width: 300px;
+    border-radius:6px;
+    box-shadow: 5px 10px 5px lightgray;
+    position: relative;
+}
+.col-sm-3{
+    margin:30px 30px;
+}
+.col-sm-3 p{
+    /* white-space: nowrap; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Number of lines to display */
+  -webkit-box-orient: vertical;
+}
+
+.card-text{
+   height: 50px;
+   margin-bottom: -5px;
+}
+.card-link {
+    position: relative;
+   margin-top: 5%;
+   background-color: #22b9c9;
+   border: none;
+}
